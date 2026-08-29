@@ -3,7 +3,7 @@
 --!native
 
 local bit32 = bit32
-local VoxelGridTypes = require(script.Parent.Parent.types.voxelGrid)
+local VoxelGridTypes = require(script.Parent.Parent.Parent.types.voxelGrid)
 
 type VoxelGrid<T> = VoxelGridTypes.VoxelGrid<T>
 type VoxelGridImpl<T> = VoxelGridTypes.VoxelGridImpl<T>
