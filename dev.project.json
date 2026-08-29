@@ -1,0 +1,15 @@
+{
+  "name": "voxelGrid-dev",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "packages": {
+        "$className": "Folder",
+        "voxelGrid": {
+          "$path": "src"
+        }
+      }
+    }
+  }
+}
