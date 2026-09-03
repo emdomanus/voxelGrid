@@ -2,7 +2,7 @@
 --!optimize 2
 --!native
 
-local VoxelGridData = require(script.data.voxelGrid)
+local VoxelGridData = require(script.data.shared.voxelGrid)
 local Types = require(script.types)
 
 export type VoxelGrid<T> = Types.VoxelGrid<T>

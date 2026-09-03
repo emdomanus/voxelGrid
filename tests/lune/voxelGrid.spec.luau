@@ -67,6 +67,10 @@ local function listToSet(values: { any }): { [any]: true }
 	return result
 end
 
+test("root initializer resolves the implementation through the source hierarchy", function(): ()
+	assertEqual(type(VoxelGrid.new), "function")
+end)
+
 test("constructor rejects non-positive cell sizes", function(): ()
 	for _, cellSize in { 0, -1 } do
 		local ok = pcall(function()
